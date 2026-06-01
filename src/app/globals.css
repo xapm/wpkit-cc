@@ -790,8 +790,14 @@ h3 {
     display: none;
   }
 
+  .nav-bar {
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+  }
+
   .menu-button {
     display: inline-flex;
+    width: auto;
   }
 
   .mobile-menu.open {
