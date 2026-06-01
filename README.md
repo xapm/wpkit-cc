@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WP Kit
 
-## Getting Started
+[WP Kit](https://wpkit.cc) is a WordPress SEO validation MVP focused on plugin stacks, launch checklists, plugin audits, and comparison pages.
 
-First, run the development server:
+The first live cluster targets 10 long-tail pages:
+
+- [WordPress Plugin Stack for Small Business Sites](https://wpkit.cc/wordpress-plugin-stack-small-business)
+- [WordPress Plugin Bloat Audit Checklist](https://wpkit.cc/wordpress-plugin-bloat-audit)
+- [WordPress Client Handoff Checklist](https://wpkit.cc/wordpress-client-handoff-checklist)
+- [WordPress Plugin Stack for Agencies](https://wpkit.cc/wordpress-plugin-stack-for-agencies)
+- [WooCommerce Launch Checklist](https://wpkit.cc/woocommerce-launch-checklist)
+- [Best WordPress Plugins for Local Business Websites](https://wpkit.cc/best-wordpress-plugins-local-business)
+- [WordPress SEO Checklist for Small Business](https://wpkit.cc/wordpress-seo-checklist-small-business)
+- [WordPress Launch Checklist](https://wpkit.cc/wordpress-launch-checklist)
+- [WP Rocket vs LiteSpeed Cache](https://wpkit.cc/wp-rocket-vs-litespeed-cache)
+- [Rank Math vs Yoast for Small Business Websites](https://wpkit.cc/rank-math-vs-yoast-small-business)
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Verification
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run lint
+npm run build
+```
