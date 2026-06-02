@@ -2,20 +2,19 @@ import type { MetadataRoute } from "next";
 import { guides } from "@/data/guides";
 
 const siteUrl = "https://wpkit.cc";
+const lastModified = new Date("2026-06-02T08:31:24.655Z");
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
-
   return [
     {
       url: siteUrl,
-      lastModified: now,
+      lastModified,
       changeFrequency: "weekly",
       priority: 1,
     },
     ...guides.map((guide) => ({
       url: `${siteUrl}/${guide.slug}`,
-      lastModified: now,
+      lastModified,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),

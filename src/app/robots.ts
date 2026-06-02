@@ -6,7 +6,9 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://wpkit.cc/sitemap.xml",
-    host: "https://wpkit.cc",
+    sitemap: [
+      "https://wpkit.cc/sitemap.xml",
+      "https://wpkit.cc/sitemap-pages.xml",
+    ],
   };
 }
