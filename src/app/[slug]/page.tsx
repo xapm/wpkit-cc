@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { getGuide, guideSlugs, guides } from "@/data/guides";
 import Header from "@/components/Header";
 import CTASection from "@/components/CTASection";
@@ -45,19 +46,7 @@ export default async function GuidePage({ params }: Props) {
   const guide = getGuide(slug);
 
   if (!guide) {
-    return (
-      <div className="site-shell">
-        <Header />
-        <main className="section">
-          <div className="app-container">
-            <h1>Guide not found</h1>
-            <p>This WP Kit guide does not exist yet.</p>
-            <Link className="button-secondary" href="/">Back to WP Kit</Link>
-          </div>
-        </main>
-        <Footer />
-      </div>
-    );
+    notFound();
   }
 
   const related = guides.filter((item) => item.slug !== guide.slug).slice(0, 3);
