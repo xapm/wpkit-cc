@@ -170,9 +170,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "rank-math-vs-yoast-small-business",
-    title: "Rank Math vs Yoast for Small Business Websites",
-    description: "Compare Rank Math and Yoast for small business WordPress SEO, including setup complexity, schema, redirects, and everyday maintenance.",
-    keyword: "Rank Math vs Yoast small business",
+    title: "Rank Math vs Yoast SEO (2026): Which Plugin Should You Use?",
+    description: "Rank Math vs Yoast SEO compared for 2026. Real differences in features, schema, and pricing — with a clear verdict for small business WordPress sites.",
+    keyword: "rank math vs yoast",
     intent: "Choose an SEO plugin for a small business website.",
     audience: "Small business owners, freelancers, and WordPress SEO consultants.",
     recommendation: "Use the SEO plugin your team can configure correctly. Rank Math can be attractive for broader free features; Yoast remains a familiar choice for teams that value conservative defaults.",
